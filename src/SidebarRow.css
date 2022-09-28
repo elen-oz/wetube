@@ -1,0 +1,22 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease 0s;
+  /* cursor: pointer; */
+}
+
+.sidebarRow:hover {
+  background-color: rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.sidebarRow__icon {
+  
+}
+
+.sidebarRow__title {
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 14px;
+}

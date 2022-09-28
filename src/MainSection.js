@@ -3,7 +3,7 @@ import './MainSection.css';
 
 function MainSection() {
   return (
-    <div>
+    <div className='mainSection'>
       <p>VideoCard</p>
       <p>VideoCard</p>
       <p>VideoCard</p>
