@@ -1,0 +1,10 @@
+.MainSection {
+  flex: 0.8;
+  border: 1px solid red;
+}
+
+@media (max-width: 1313px) {
+  .MainSection {
+    flex: 0.9;
+  }
+}
