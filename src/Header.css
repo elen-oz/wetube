@@ -20,6 +20,11 @@
   align-items: center;
 }
 
+input:focus-visible {
+  outline: none;
+  border-radius: none;
+}
+
 .header__input {
   display: flex;
   align-items: center;
