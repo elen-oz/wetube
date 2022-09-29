@@ -12,13 +12,17 @@ function VideoCard({
 }) {
   videoThumbnail = getFormatCheck(videoThumbnail);
   return (
-    <div className="videoCard">
-      <img className="videoCard__thumbnail" src={"/assets/videos/" + videoThumbnail} alt={videoName} />
+    <div className='videoCard'>
+      <img
+        className='videoCard__thumbnail'
+        src={"/assets/videos/" + videoThumbnail}
+        alt={videoName}
+      />
       <div className='videoCard__info'>
         <Avatar
           className='videoCard__avatar'
           alt={channelName}
-          src={"/assets/channels/" + channelThumbnail} alt={channelName}
+          src={"/assets/channels/" + channelThumbnail}
           sx={{ width: 38, height: 38 }}
         />
         <div className='videoCard__text'>

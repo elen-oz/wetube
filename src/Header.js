@@ -10,6 +10,7 @@ import Avatar from "@mui/material/Avatar";
 
 function Header() {
   const [inputSearch, setInputSearch] = useState("");
+
   return (
     <div className='header'>
       <div className='header__left'>

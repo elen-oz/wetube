@@ -3,6 +3,7 @@ import Header from "./Header";
 import Sidebar from "./Sidebar";
 import MainSection from "./MainSection";
 import SearchPage from "./SearchPage";
+import VideoPage from "./VideoPage";
 import wetubeData from "./content/data.json";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -18,6 +19,10 @@ function App() {
           <Route
             path='/search/:searchTerm'
             element={<SearchPage videosData={wetubeData} />}
+          />
+          <Route
+            path='/video/:id'
+            element={<VideoPage videosData={wetubeData} />}
           />
         </Routes>
       </div>

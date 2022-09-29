@@ -10,6 +10,8 @@ function MainSection({ videosData }) {
 
     videosComponents.push(
       <VideoCard
+        id={video.id}
+        videoId={video.videoId}
         videoThumbnail={video.videoThumbnail}
         videoName={video.videoName}
         channelName={video.channelName}

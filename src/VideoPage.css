@@ -1,0 +1,8 @@
+.videoPage {
+  flex: 1;
+}
+
+.videoPage__content {
+  margin-top: 15px;
+  margin-left: 20px;
+}
