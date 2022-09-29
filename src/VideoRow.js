@@ -25,7 +25,9 @@ function VideoRow({
       </a>
       
       <div className='videoRow__info'>
-        <h4>{videoName}</h4>
+        <a className="text" href={"../video/" + id}>
+          <h4>{videoName}</h4>
+        </a>
         <p className='videoRow__description'>{views}</p>
 
         <div className='videoRow__description videoRow__title'>
@@ -38,6 +40,7 @@ function VideoRow({
           <p>{channelName}</p>
         </div>
       </div>
+      
     </div>
   );
 }

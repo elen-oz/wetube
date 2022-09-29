@@ -29,7 +29,9 @@ function VideoCard({
           sx={{ width: 38, height: 38 }}
         />
         <div className='videoCard__text'>
-          <h4>{videoName}</h4>
+          <a className='text' href={"./video/" + id}>
+            <h4>{videoName}</h4>
+          </a>
           <p>{channelName}</p>
           <p>{views}</p>
         </div>
