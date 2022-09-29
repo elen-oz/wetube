@@ -28,7 +28,7 @@ function VideoRow({
         <a className="text" href={"../video/" + id}>
           <h4>{videoName}</h4>
         </a>
-        <p className='videoRow__description'>{views}</p>
+        <p className='videoRow__description'>{views} views</p>
 
         <div className='videoRow__description videoRow__title'>
           <Avatar

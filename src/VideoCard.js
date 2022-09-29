@@ -33,7 +33,7 @@ function VideoCard({
             <h4>{videoName}</h4>
           </a>
           <p>{channelName}</p>
-          <p>{views}</p>
+          <p>{views} views</p>
         </div>
       </div>
     </div>

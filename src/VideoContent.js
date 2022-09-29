@@ -43,13 +43,15 @@ function VideoContent({
         /> */}
         <div className='videoContent__info'>
           <h4 className='videoContent__name'>{videoName}</h4>
-          <p className='videoContent__views'>{views}</p>
+          <p className='videoContent__views'>{views} views</p>
 
-          <div className="videoContent__icons">
-            ThumbUpOutlinedIcon
-            ThumbDownOffAltOutlinedIcon
-            ReplySharpIcon
-          </div>
+          {/* <div className="videoContent__icons">
+            
+           <ThumbUpOutlinedIcon />
+           <ThumbDownOffAltOutlinedIcon />
+           <ReplySharpIcon />
+            
+          </div> */}
 
           <div className='videoContent_info'>
             <Avatar
