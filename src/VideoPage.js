@@ -1,6 +1,7 @@
 import React from "react";
 import VideoContent from "./VideoContent";
 import { useParams } from "react-router-dom";
+import VidePage from "./VideoPage.css";
 
 function VideoPage({ videosData }) {
   let videoID = useParams().id;
@@ -8,7 +9,6 @@ function VideoPage({ videosData }) {
 
   for (let i = 0; i < videosData.length; i += 1) {
     const video = videosData[i];
-    console.log(video.id, videoID);
 
     if (video.id.toString() === videoID) {
       videoComponent = (
@@ -27,7 +27,6 @@ function VideoPage({ videosData }) {
   }
   return (
     <div className='videoPage'>
-      <div>THE VIDEO WILL BE SOON...</div>
       <div className='videoPage__content'>{videoComponent}</div>
     </div>
   );

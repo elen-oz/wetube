@@ -1,8 +1,10 @@
 .videoPage {
   flex: 1;
+  margin-top: 15px;
+  margin-left: 20px;
 }
 
 .videoPage__content {
-  margin-top: 15px;
-  margin-left: 20px;
+  
+
 }

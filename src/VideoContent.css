@@ -1,0 +1,9 @@
+.videoContent__info {
+  margin: 10px 0 10px;
+}
+
+
+.videoContent_info {
+  display: flex;
+  align-items: center;
+}

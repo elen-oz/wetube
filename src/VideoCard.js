@@ -4,6 +4,7 @@ import getFormatCheck from "./formatCheck";
 import "./VideoCard.css";
 
 function VideoCard({
+  id,
   videoThumbnail,
   videoName,
   channelName,
@@ -13,11 +14,13 @@ function VideoCard({
   videoThumbnail = getFormatCheck(videoThumbnail);
   return (
     <div className='videoCard'>
-      <img
-        className='videoCard__thumbnail'
-        src={"/assets/videos/" + videoThumbnail}
-        alt={videoName}
-      />
+      <a href={"./video/" + id}>
+        <img
+          className='videoCard__thumbnail'
+          src={"/assets/videos/" + videoThumbnail}
+          alt={videoName}
+        />
+      </a>
       <div className='videoCard__info'>
         <Avatar
           className='videoCard__avatar'
