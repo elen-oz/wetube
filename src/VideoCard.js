@@ -1,6 +1,7 @@
 import React from "react";
 import { Avatar } from "@mui/material";
 import getFormatCheck from "./formatCheck";
+import "./VideoCard.css";
 
 function VideoCard({
   videoThumbnail,
@@ -11,8 +12,8 @@ function VideoCard({
 }) {
   videoThumbnail = getFormatCheck(videoThumbnail);
   return (
-    <div>
-      <img src={"/assets/videos/" + videoThumbnail} alt={videoName} />
+    <div className="videoCard">
+      <img className="videoCard__thumbnail" src={"/assets/videos/" + videoThumbnail} alt={videoName} />
       <div className='videoCard__info'>
         <Avatar
           className='videoCard__avatar'
@@ -20,7 +21,7 @@ function VideoCard({
           src={"/assets/channels/" + channelThumbnail} alt={channelName}
           sx={{ width: 38, height: 38 }}
         />
-        <div className='video__text'>
+        <div className='videoCard__text'>
           <h4>{videoName}</h4>
           <p>{channelName}</p>
           <p>{views}</p>

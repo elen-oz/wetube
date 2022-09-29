@@ -3,7 +3,6 @@ import "./MainSection.css";
 import VideoCard from "./VideoCard";
 
 function MainSection({ videosData }) {
-  console.log(videosData);
   const videosComponents = [];
 
   for (let i = 0; i < videosData.length; i += 1) {
@@ -20,25 +19,11 @@ function MainSection({ videosData }) {
     );
   }
 
-  // for (const data in videosData) {
-
-  //     console.log(`---data: ${videosData[0].channelName}`);
-  //    //
-  // }
-
   return (
     <div className='mainSection'>
+      <div className="mainSection__videos">
       {videosComponents}
-      {/* <VideoCard
-        videoName='LOTUS - Everything You Need to Know | Up To Speed'
-        views='2472719'
-        channelName='Donut Media'
-        channelImage={require("./content/channels/donut.jpg").default}
-        videoImage={require("./content/videos/26-best-games.jpg").default}
-      />
-      <VideoCard />
-      <VideoCard />
-      <VideoCard /> */}
+      </div>
     </div>
   );
 }
