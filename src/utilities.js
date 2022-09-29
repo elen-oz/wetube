@@ -15,6 +15,11 @@ export const VideoIDToEmbed = (videoAddress) => {
 };
 
 
-export const searchPartOfString = (textOfSearch) => {
-  
+export const SearchForVideo = ({ videosData, searchTerm }) => {
+  const lowerCasedSearchTerm = searchTerm.toLowerCase();
+
+  return videosData.filter((video) => 
+    video.videoName.toLowerCase().includes(lowerCasedSearchTerm)
+  )
 };
+
