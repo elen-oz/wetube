@@ -16,11 +16,14 @@ function VideoRow({
 
   return (
     <div className='videoRow'>
-      <img
-        className='videoRow__thumbnail'
-        src={"/assets/videos/" + videoThumbnail}
-        alt={videoName}
-      />
+      <a href={"../video/" + id}>
+        <img
+          className='videoRow__thumbnail'
+          src={"/assets/videos/" + videoThumbnail}
+          alt={videoName}
+        />
+      </a>
+      
       <div className='videoRow__info'>
         <h4>{videoName}</h4>
         <p className='videoRow__description'>{views}</p>
