@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar } from "@mui/material";
-import getFormatCheck from "./formatCheck";
+import { getFormatCheck } from "./utilities";
 import "./styles/VideoCard.css";
 
 function VideoCard({

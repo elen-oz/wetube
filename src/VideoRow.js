@@ -1,5 +1,5 @@
 import React from "react";
-import getFormatCheck from "./formatCheck";
+import { getFormatCheck } from "./utilities";
 import { Avatar } from "@mui/material";
 import "./styles/VideoRow.css";
 
