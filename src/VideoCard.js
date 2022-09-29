@@ -10,7 +10,6 @@ function VideoCard({
   channelThumbnail,
 }) {
   videoThumbnail = getFormatCheck(videoThumbnail);
-  console.log("/assets/videos/" + videoThumbnail);
   return (
     <div>
       <img src={"/assets/videos/" + videoThumbnail} alt={videoName} />
@@ -18,8 +17,8 @@ function VideoCard({
         <Avatar
           className='videoCard__avatar'
           alt={channelName}
-          src={channelThumbnail}
-          sx={{ width: 24, height: 24 }}
+          src={"/assets/channels/" + channelThumbnail} alt={channelName}
+          sx={{ width: 38, height: 38 }}
         />
         <div className='video__text'>
           <h4>{videoName}</h4>
