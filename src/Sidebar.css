@@ -6,3 +6,9 @@
     flex: 0.1;
   }
 }
+
+@media (max-width: 715px) {
+  .sidebar {
+    display: none;
+  }
+}
