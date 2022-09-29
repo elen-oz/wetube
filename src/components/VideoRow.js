@@ -5,7 +5,6 @@ import "../styles/VideoRow.css";
 
 function VideoRow({
   id,
-  videoId,
   videoThumbnail,
   videoName,
   channelName,

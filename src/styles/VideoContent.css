@@ -19,3 +19,7 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+.videoContent__avatar {
+  margin: 10px;
+}
