@@ -4,9 +4,9 @@ import Sidebar from "./Sidebar";
 import MainSection from "./MainSection";
 import SearchPage from "./SearchPage";
 import VideoPage from "./VideoPage";
-import wetubeData from "./content/data.json";
+import wetubeData from "./data/data.json";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (

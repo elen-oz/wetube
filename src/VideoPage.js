@@ -1,7 +1,7 @@
 import React from "react";
 import VideoContent from "./VideoContent";
 import { useParams } from "react-router-dom";
-import VidePage from "./VideoPage.css";
+import "./styles/VideoPage.css";
 
 function VideoPage({ videosData }) {
   let videoID = useParams().id;

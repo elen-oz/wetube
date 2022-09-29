@@ -1,7 +1,7 @@
 import React from "react";
 import VideoRow from "./VideoRow";
 import { useParams } from "react-router-dom";
-import "./SearchPage.css";
+import "./styles/SearchPage.css";
 
 function SearchForVideo({ videosData, searchTerm }) {
   const videos = [];

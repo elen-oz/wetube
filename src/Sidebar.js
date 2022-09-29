@@ -1,6 +1,6 @@
 import React from 'react';
 import SidebarRow from './SidebarRow';
-import './Sidebar.css';
+import './styles/Sidebar.css';
 import HomeIcon from '@mui/icons-material/Home';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import LocalPlayOutlinedIcon from '@mui/icons-material/LocalPlayOutlined';
