@@ -12,7 +12,7 @@ function VideoPage({ videosData }) {
 
     if (video.id.toString() === videoID) {
       videoComponent = (
-        <VideoPage
+        <VideoContent
           id={video.id}
           videoId={video.videoId}
           videoThumbnail={video.videoThumbnail}

@@ -13,9 +13,14 @@ function VideoContent(
 ) {
   return (
     <div>
-      <div>VIDEO</div>
+      <div>
+        
+      <iframe width="875" height="492" src="https://www.youtube.com/embed/e3EfNfE8pCU" title="LOTUS - Everything You Need to Know | Up To Speed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      {/* <iframe width="875" height="492" src={videoId} title={videoName} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
 
-      <div className='videoContent'>
+      </div>
+
+      {/* <div className='videoContent'>
         <img
           className='videoRow__thumbnail'
           src={"/assets/videos/" + videoThumbnail}
@@ -35,7 +40,7 @@ function VideoContent(
             <p>{channelName}</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

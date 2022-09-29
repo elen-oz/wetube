@@ -4,6 +4,6 @@ const getFormatCheck = (fileName) => {
   } 
 
   return fileName;
-}
+};
 
 export default getFormatCheck;
