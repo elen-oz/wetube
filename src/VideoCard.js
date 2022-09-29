@@ -8,9 +8,11 @@ function VideoCard({
   views,
   channelThumbnail,
 }) {
+
+  console.log("./content/videos/" + videoThumbnail);
   return (
     <div>
-      <img scr={videoThumbnail} alt='' />
+      <img scr="/content/videos/lotus-esprit-review.jpg" alt='' />
       <div className='videoCard__info'>
         <Avatar
           className='videoCard__avatar'

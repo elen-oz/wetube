@@ -2,20 +2,34 @@ import React from "react";
 import "./MainSection.css";
 import VideoCard from "./VideoCard";
 
-function MainSection({videosData}) {
-
+function MainSection({ videosData }) {
   console.log(videosData);
   const videosComponents = [];
-  
-  for (const data in videosData) {
 
-      console.log(`---data: ${data[0].channelName}`);
-     //videosComponents.push(<VideoCard video={video} />);
+  for (let i = 0; i < videosData.length; i += 1) {
+    const video = videosData[i];
+
+    videosComponents.push(
+      <VideoCard
+        videoThumbnail={video.videoThumbnail}
+        videoName={video.videoName}
+        channelName={video.channelName}
+        views={video.views}
+        channelThumbnail={video.channelThumbnail}
+      />
+    );
   }
+
+  // for (const data in videosData) {
+
+  //     console.log(`---data: ${videosData[0].channelName}`);
+  //    //
+  // }
 
   return (
     <div className='mainSection'>
-      <VideoCard
+      {videosComponents}
+      {/* <VideoCard
         videoName='LOTUS - Everything You Need to Know | Up To Speed'
         views='2472719'
         channelName='Donut Media'
@@ -24,7 +38,7 @@ function MainSection({videosData}) {
       />
       <VideoCard />
       <VideoCard />
-      <VideoCard />
+      <VideoCard /> */}
     </div>
   );
 }
