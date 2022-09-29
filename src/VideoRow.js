@@ -12,7 +12,7 @@ function VideoRow({
   views,
   channelThumbnail,
 }) {
-  // videoThumbnail = getFormatCheck(videoThumbnail);
+  videoThumbnail = getFormatCheck(videoThumbnail);
 
   return (
     <div className='videoRow'>
@@ -23,9 +23,9 @@ function VideoRow({
           alt={videoName}
         />
       </a>
-      
+
       <div className='videoRow__info'>
-        <a className="text" href={"../video/" + id}>
+        <a className='text' href={"../video/" + id}>
           <h4>{videoName}</h4>
         </a>
         <p className='videoRow__description'>{views} views</p>
@@ -40,7 +40,6 @@ function VideoRow({
           <p>{channelName}</p>
         </div>
       </div>
-      
     </div>
   );
 }
