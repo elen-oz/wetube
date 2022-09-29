@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/MainSection.css";
+import "../styles/MainSection.css";
 import VideoCard from "./VideoCard";
 
 function MainSection({ videosData }) {

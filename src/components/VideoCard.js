@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar } from "@mui/material";
-import { getFormatCheck } from "./utilities";
-import "./styles/VideoCard.css";
+import { getFormatCheck } from "../utilities";
+import "../styles/VideoCard.css";
 
 function VideoCard({
   id,

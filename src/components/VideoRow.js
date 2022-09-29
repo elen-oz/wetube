@@ -1,7 +1,7 @@
 import React from "react";
-import { getFormatCheck } from "./utilities";
+import { getFormatCheck } from "../utilities";
 import { Avatar } from "@mui/material";
-import "./styles/VideoRow.css";
+import "../styles/VideoRow.css";
 
 function VideoRow({
   id,

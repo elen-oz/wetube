@@ -1,8 +1,8 @@
 import React from "react";
 import VideoRow from "./VideoRow";
 import { useParams } from "react-router-dom";
-import { SearchForVideo } from "./utilities";
-import "./styles/SearchPage.css";
+import { SearchForVideo } from "../utilities";
+import "../styles/SearchPage.css";
 
 
 function SearchPage({ videosData }) {

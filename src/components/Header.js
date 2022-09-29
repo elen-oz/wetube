@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./styles/Header.css";
+import "../styles/Header.css";
 import { Link } from "react-router-dom";
 import MenuSharpIcon from "@mui/icons-material/MenuSharp";
-import logo from "./logo.svg";
+import logo from "../logo.svg";
 import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 import VideoCallOutlinedIcon from "@mui/icons-material/VideoCallOutlined";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
@@ -14,7 +14,7 @@ function Header() {
   return (
     <div className='header'>
       <div className='header__left'>
-        <MenuSharpIcon />
+        <MenuSharpIcon />        
         <Link to='/'>
           <img className='header__logo' src={logo} alt='wetube logo' />
         </Link>
@@ -33,11 +33,25 @@ function Header() {
       </div>
 
       <div className='header__icons'>
-        <VideoCallOutlinedIcon className='header__icon' />
-        <NotificationsOutlinedIcon className='header__icon' />
-        <Avatar sx={{ width: 28, height: 28 }} className='header__icon'>
-          I
-        </Avatar>
+        <a className='text' target='_blank' href='https://github.com/elen-oz'>
+          <VideoCallOutlinedIcon className='header__icon' />
+        </a>
+        <a
+          className='text'
+          target='_blank'
+          href='https://www.linkedin.com/in/elen-oz/'
+        >
+          <NotificationsOutlinedIcon className='header__icon' />
+        </a>
+        <a
+          className='text'
+          target='_blank'
+          href='https://www.instagram.com/lenka_oz/'
+        >
+          <Avatar sx={{ width: 28, height: 28 }} className='header__icon'>
+            I
+          </Avatar>
+        </a>
       </div>
 
       {/* <button></button> */}

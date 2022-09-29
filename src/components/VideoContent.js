@@ -1,10 +1,10 @@
 import React from "react";
 import { Avatar } from "@mui/material";
-import { VideoIDToEmbed } from "./utilities";
+import { VideoIDToEmbed } from "../utilities";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ThumbDownOffAltOutlinedIcon from "@mui/icons-material/ThumbDownOffAltOutlined";
 import ReplySharpIcon from "@mui/icons-material/ReplySharp";
-import "./styles/VideoContent.css";
+import "../styles/VideoContent.css";
 
 function VideoContent({
   id,
