@@ -1,7 +1,10 @@
+.videoContent__wrapper {
+  flex: 0.8;
+}
+
 .videoContent__info {
   margin: 10px 0 10px;
 }
-
 
 .videoContent_info {
   display: flex;
@@ -11,7 +14,6 @@
 .videoContent__name {
   margin-bottom: 15px;
   font-size: 18px;
-
 }
 
 .videoContent__views {
@@ -22,4 +24,23 @@
 
 .videoContent__avatar {
   margin: 10px;
+}
+
+@media (max-width: 1313px) {
+  .videoContent__wrapper {
+    flex: 0.9;
+  }
+}
+
+
+@media (max-width: 987px) {
+  .videoContent__iframe {
+    max-width: 860px;
+  }
+}
+
+@media (max-width: 400px){
+  .videoContent__wrapper {
+    margin: 0 10px;
+  }
 }

@@ -73,27 +73,27 @@ input:focus-visible {
     margin-right: 5px;
   }
 }
+
 @media (max-width: 423px) {
   .header {
-    justify-content: space-around;
+    /* justify-content: space-between; */
+    position:static;
+
   }
 
+}
+
+@media (max-width: 419px) {
+  .header__input {
+
+    width: auto;
+  }
+  
   .header__icons {
     display:none;
   }
 
   .header__input {
-    margin: 8px;
-  }
-
-  .header .header__searchButton {
-    border: 1px solid rgb(190, 190, 190)
-  }
-}
-@media (max-width: 321px) {
-  .header__input {
-    justify-content: center;
-    width: 170px;
-    margin: 10px;
+    margin-right: 10px;
   }
 }

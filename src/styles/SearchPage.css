@@ -1,9 +1,11 @@
 .searchPage {
   flex: 0.8;
-  /* padding: 20px; */
+  padding: 20px;
+  background-color: rgb(246, 246, 246);
 }
 
-.videoRow__videos {
-  margin-top: 15px;
-  margin-left: 20px;
+@media (max-width: 1410px) {
+  .searchPage {
+    flex: 0.99;
+  }
 }

@@ -28,9 +28,8 @@ function SearchPage({ videosData }) {
 
   return (
     <div className='searchPage'>
-      <hr />
       <div>
-        <div className='videoRow__videos'>{videosComponents}</div>
+        <div className='searchPage__videos'>{videosComponents}</div>
       </div>
     </div>
   );

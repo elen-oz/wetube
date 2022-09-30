@@ -12,8 +12,9 @@ function VideoContent({
 }) {
   return (
     <div>
-      <div>
+      <div className="videoContent__wrapper">
         <iframe
+          className="videoContent__iframe"
           width='875'
           height='492'
           src={VideoIDToEmbed(videoId)}
