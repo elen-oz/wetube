@@ -17,6 +17,7 @@ Hi! This is my test assignment for Novare Potential.
 - static site header and sidebar on all pages;
 - search by part of the string;
 - an algorithm has been implemented to check the transmitted address for spaces;
-- an algorithm was implemented to check if the image has an extension.
+- an algorithm was implemented to check if the image has an extension;
+- responsive pages for different screen sizes.
 
-_I hope you enjoy._
+
