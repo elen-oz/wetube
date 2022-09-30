@@ -1,11 +1,10 @@
 .videoCard {
-  display: flex;
-  flex-direction: column;
+  flex: 0.25;
   margin: 0 2px 40px;
 }
 
 .videoCard__thumbnail {
-  max-width: 310px;
+  max-width: 270px;
 }
 
 .videoCard__info {
