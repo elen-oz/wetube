@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
-import MainSection from "./components/MainSection";
+import MainPage from "./components/MainPage";
 import SearchPage from "./components/SearchPage";
 import VideoPage from "./components/VideoPage";
 import wetubeData from "./data/data.json";
@@ -15,7 +15,7 @@ function App() {
       <div className='app__page'>
         <Sidebar />
         <Routes>
-          <Route path='/' element={<MainSection videosData={wetubeData} />} />
+          <Route path='/' element={<MainPage videosData={wetubeData} />} />
           <Route
             path='/search/:searchTerm'
             element={<SearchPage videosData={wetubeData} />}

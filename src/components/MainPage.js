@@ -1,17 +1,17 @@
 import React from "react";
-import "../styles/MainSection.css";
+import "../styles/MainPage.css";
 import { getDataVideoCard } from "../utilities";
 
-function MainSection({ videosData }) {
+function MainPage({ videosData }) {
   const videosComponents = getDataVideoCard(videosData);
 
   return (
-    <div className='mainSection'>
-      <div className="mainSection__videos">
+    <div className='mainPage'>
+      <div className="mainPage__videos">
       {videosComponents}
       </div>
     </div>
   );
 }
 
-export default MainSection;
+export default MainPage;
