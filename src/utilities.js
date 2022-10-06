@@ -1,5 +1,7 @@
 import React from "react";
 import VideoCard from "./components/VideoCard";
+import VideoRow from "./VideoRow";
+
 
 export const getDataVideoCard = (videosData) => {
   const videosComponents = [];
@@ -9,6 +11,28 @@ export const getDataVideoCard = (videosData) => {
 
     videosComponents.push(
       <VideoCard
+        id={video.id}
+        videoId={video.videoId}
+        videoThumbnail={video.videoThumbnail}
+        videoName={video.videoName}
+        channelName={video.channelName}
+        views={video.views}
+        channelThumbnail={video.channelThumbnail}
+      />
+    );
+  }
+
+  return videosComponents;
+};
+
+export const getDataVideoRow = (videosData) => {
+  const videosComponents = [];
+
+  for (let i = 0; i < videos.length; i += 1) {
+    const video = videos[i];
+
+    videosComponents.push(
+      <VideoRow
         id={video.id}
         videoId={video.videoId}
         videoThumbnail={video.videoThumbnail}
