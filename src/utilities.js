@@ -25,7 +25,7 @@ export const getDataVideoCard = (videosData) => {
   return videosComponents;
 };
 
-export const SearchForVideo = ({ videosData, searchTerm }) => {
+const searchForVideo = ({ videosData, searchTerm }) => {
   const lowerCasedSearchTerm = searchTerm.toLowerCase();
 
   return videosData.filter((video) =>
@@ -35,7 +35,7 @@ export const SearchForVideo = ({ videosData, searchTerm }) => {
 
 export const getDataVideoRow = (videosData) => {
   let searchTerm = useParams().searchTerm;
-  let videos = SearchForVideo({ videosData, searchTerm });
+  let videos = searchForVideo({ videosData, searchTerm });
   const videosComponents = [];
 
   for (let i = 0; i < videos.length; i += 1) {
@@ -65,7 +65,7 @@ export const getFormatCheck = (fileName) => {
   return fileName;
 };
 
-export const VideoIDToEmbed = (videoAddress) => {
+export const videoIDToEmbed = (videoAddress) => {
   videoAddress = videoAddress.split("?v=");
   let correctAddress = `https://www.youtube.com/embed/${videoAddress[1]}`;
   let result = correctAddress.replace(" ", "");
