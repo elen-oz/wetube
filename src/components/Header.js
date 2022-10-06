@@ -33,13 +33,13 @@ function Header() {
       </div>
 
       <div className='header__icons'>
-        <a className='text' target='_blank' href='https://github.com/elen-oz'>
+        <a className='text' target='_blank' rel="noopener noreferrer" href='https://github.com/elen-oz'>
           <VideoCallOutlinedIcon className='header__icon' />
         </a>
-        <a className='text' target='_blank' href='https://www.linkedin.com/in/elen-oz/'>
+        <a className='text' target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/elen-oz/'>
           <NotificationsOutlinedIcon className='header__icon' />
         </a>
-        <a className='text' target='_blank' href='https://www.instagram.com/lenka_oz/'>
+        <a className='text' target='_blank' rel="noopener noreferrer" href='https://www.instagram.com/lenka_oz/'>
           <Avatar sx={{ width: 28, height: 28 }} className='header__icon'>
             I
           </Avatar>

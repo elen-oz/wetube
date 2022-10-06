@@ -1,7 +1,7 @@
 import React from "react";
 import VideoCard from "./components/VideoCard";
-import VideoRow from "./VideoRow";
-
+import VideoRow from "./components/VideoRow";
+import { useParams } from "react-router-dom";
 
 export const getDataVideoCard = (videosData) => {
   const videosComponents = [];
@@ -25,7 +25,17 @@ export const getDataVideoCard = (videosData) => {
   return videosComponents;
 };
 
+export const SearchForVideo = ({ videosData, searchTerm }) => {
+  const lowerCasedSearchTerm = searchTerm.toLowerCase();
+
+  return videosData.filter((video) =>
+    video.videoName.toLowerCase().includes(lowerCasedSearchTerm)
+  );
+};
+
 export const getDataVideoRow = (videosData) => {
+  let searchTerm = useParams().searchTerm;
+  let videos = SearchForVideo({ videosData, searchTerm });
   const videosComponents = [];
 
   for (let i = 0; i < videos.length; i += 1) {
@@ -61,12 +71,4 @@ export const VideoIDToEmbed = (videoAddress) => {
   let result = correctAddress.replace(" ", "");
 
   return result;
-};
-
-export const SearchForVideo = ({ videosData, searchTerm }) => {
-  const lowerCasedSearchTerm = searchTerm.toLowerCase();
-
-  return videosData.filter((video) =>
-    video.videoName.toLowerCase().includes(lowerCasedSearchTerm)
-  );
 };
