@@ -1,22 +1,22 @@
-.mainSection {
+.mainPage {
   flex: 0.8;
   padding: 20px;
   background-color: rgb(246, 246, 246);
 }
 
-.mainSection__videos {
+.mainPage__videos {
   display: flex;
   flex-wrap: wrap;
 }
 
 @media (max-width: 1410px) {
-  .mainSection {
+  .mainPage {
     flex: 0.99;
   }
 }
 
 @media (max-width: 548px) {
-  .mainSection {
+  .mainPage {
     flex: 1;
   }
 }

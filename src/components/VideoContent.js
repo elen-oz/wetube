@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar } from "@mui/material";
-import { VideoIDToEmbed } from "../utilities";
+import { videoIDToEmbed } from "../utilities";
 import "../styles/VideoContent.css";
 
 function VideoContent({
@@ -12,16 +12,16 @@ function VideoContent({
 }) {
   return (
     <div>
-      <div className="videoContent__wrapper">
+      <div className='videoContent__wrapper'>
         <iframe
-          className="videoContent__iframe"
+          className='videoContent__iframe'
           width='875'
           height='492'
-          src={VideoIDToEmbed(videoId)}
+          src={videoIDToEmbed(videoId)}
           title={videoName}
-          frameborder='0'
+          frameBorder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
 
