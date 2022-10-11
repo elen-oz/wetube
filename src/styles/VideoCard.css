@@ -1,0 +1,272 @@
+.videoCard {
+  flex: 0.25;
+  margin: 0 2px 40px;
+}
+
+.videoCard__thumbnail {
+  max-width: 270px;
+}
+
+.videoCard__info {
+  display: flex;
+  margin-top: 10px;
+  max-width: 310px;
+}
+
+.videoCard__text {
+  margin-left: 15px;
+}
+
+.videoCard__text > h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.videoCard__text > p {
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+}
+
+@media (max-width: 1388px) {
+  .videoCard {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1371px) {
+  .videoCard__thumbnail {
+    max-width: 305px;
+  }
+
+  .videoCard__info {
+    max-width: 305px;
+  }
+}
+
+@media (max-width: 1352px) {
+  .videoCard__thumbnail {
+    max-width: 280px;
+  }
+
+  .videoCard__info {
+    max-width: 280px;
+  }
+}
+
+@media (max-width: 1252px) {
+  .videoCard__thumbnail {
+    max-width: 250px;
+  }
+
+  .videoCard__info {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 1132px) {
+  .videoCard__thumbnail {
+    max-width: 237px;
+  }
+
+  .videoCard__info {
+    max-width: 237px;
+  }
+}
+
+
+
+@media (max-width: 1090px) {
+  .videoCard {
+    flex: 0.333;
+  }
+
+  .videoCard__thumbnail {
+    max-width: 310px;
+  }
+
+  .videoCard__info {
+    max-width: 310px;
+    margin-top: 7px;
+  }
+  
+  .videoCard__text {
+    margin-left: 10px;
+  }
+
+  .videoCard__title {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .videoCard__text > p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .videoCard__thumbnail {
+    max-width: 300px;
+  }
+
+  .videoCard__info {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 1028px) {
+  .videoCard__thumbnail {
+    max-width: 290px;
+  }
+
+  .videoCard__info {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .videoCard__thumbnail {
+    max-width: 260px;
+  }
+
+  .videoCard__info {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 913px) {
+  .videoCard {
+    margin-bottom: 10px;
+  }
+
+  .videoCard__thumbnail {
+    max-width: 230px;
+  }
+
+  .videoCard__info {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 818px) {
+  .videoCard__thumbnail {
+    max-width: 198px;
+  }
+
+  .videoCard__info {
+    max-width: 198px;
+  }
+}
+
+@media (max-width: 722px) {
+  .videoCard__thumbnail {
+    max-width: 168px;
+  }
+
+  .videoCard__info {
+    max-width: 168px;
+    margin-top: 5px;
+  }
+
+  .videoCard__text {
+    margin-left: 5px;
+  }
+
+  .videoCard__title {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .videoCard__text > p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 632px) {
+  .videoCard {
+    margin-bottom: 5px;
+  }
+
+  .videoCard__thumbnail {
+    max-width: 140px;
+  }
+
+  .videoCard__info {
+    max-width: 140px;
+    margin-top: 4px;
+  }
+
+  .videoCard__text {
+    margin-left: 3px;
+  }
+
+  .videoCard__title {
+    font-size: 8px;
+    margin-bottom: 3px;
+  }
+
+  .videoCard__text > p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 548px) {
+  .videoCard__thumbnail {
+    max-width: 140px;
+  }
+
+  .videoCard__info {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 471px) {
+  .videoCard {
+    flex: 0.5;
+    margin: 0 1px 5px;
+  }
+
+  .videoCard__thumbnail {
+    max-width: 185px;
+  }
+
+  .videoCard__info {
+    max-width: 185px;
+  }
+}
+
+@media (max-width: 417px) {
+  .videoCard__thumbnail {
+    max-width: 165px;
+  }
+  .videoCard__info {
+    max-width: 165px;
+  }
+}
+
+@media (max-width: 397px) {
+  .videoCard__thumbnail {
+    max-width: 155px;
+  }
+  .videoCard__info {
+    max-width: 155px;
+  }
+}
+
+@media (max-width: 377px) {
+  .videoCard__thumbnail {
+    max-width: 145px;
+  }
+  .videoCard__info {
+    max-width: 145px;
+  }
+}
+
+@media (max-width: 333px) {
+  .videoCard__thumbnail {
+    max-width: 137px;
+  }
+  .videoCard__info {
+    max-width: 137px;
+  }
+}
+

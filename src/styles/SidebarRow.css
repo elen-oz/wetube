@@ -3,7 +3,6 @@
   align-items: center;
   padding: 10px 20px;
   transition: background-color 0.3s ease 0s;
-  /* cursor: pointer; */
 }
 
 .sidebarRow:first-child {
@@ -15,12 +14,23 @@
   cursor: pointer;
 }
 
-.sidebarRow__icon {
-  
-}
-
 .sidebarRow__title {
   margin-left: 20px;
   font-weight: 400;
   font-size: 14px;
+}
+
+@media (max-width: 1410px) {
+  .sidebarRow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 5px; */
+    padding: 10px 0;
+  }
+
+  .sidebarRow__title {
+    margin: 5px 5px;
+    font-size: 10px;
+  }
 }

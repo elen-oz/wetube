@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Header";
-import Sidebar from "./Sidebar";
-import MainSection from "./MainSection";
-import SearchPage from "./SearchPage";
-import VideoPage from "./VideoPage";
-import wetubeData from "./content/data.json";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import MainSection from "./components/MainSection";
+import SearchPage from "./components/SearchPage";
+import VideoPage from "./components/VideoPage";
+import wetubeData from "./data/data.json";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 
 function App() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar } from "@mui/material";
-import getFormatCheck from "./formatCheck";
-import "./VideoCard.css";
+import { getFormatCheck } from "../utilities";
+import "../styles/VideoCard.css";
 
 function VideoCard({
   id,
@@ -30,10 +30,10 @@ function VideoCard({
         />
         <div className='videoCard__text'>
           <a className='text' href={"./video/" + id}>
-            <h4>{videoName}</h4>
+            <h4 className="videoCard__title">{videoName}</h4>
           </a>
-          <p>{channelName}</p>
-          <p>{views} views</p>
+          <p className="videoCard__description">{channelName}</p>
+          <p className="videoCard__description">{views} views</p>
         </div>
       </div>
     </div>

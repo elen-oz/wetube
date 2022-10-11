@@ -1,13 +1,14 @@
 .sidebar {
   flex: 0.2;
 }
-@media (max-width: 1313px) {
+
+@media (max-width: 1410px) {
   .sidebar {
-    flex: 0.1;
+    flex: 0.01;
   }
 }
 
-@media (max-width: 715px) {
+@media (max-width: 548px) {
   .sidebar {
     display: none;
   }
