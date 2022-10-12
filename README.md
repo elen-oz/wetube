@@ -1,11 +1,8 @@
 # WETUBE app
 
-Hi! This is my test assignment for Novare Potential.
 
 ## deploy on firebase: https://wetube-867a9.web.app
-
----
-
+-------
 ## What has been done in this project:
 
 3 pages created:
@@ -22,3 +19,5 @@ Hi! This is my test assignment for Novare Potential.
 - an algorithm has been implemented to check the transmitted address for spaces;
 - an algorithm was implemented to check if the image has an extension;
 - responsive pages for different screen sizes.
+
+
