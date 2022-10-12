@@ -1,8 +1,10 @@
 # WETUBE app
 
----
-
 Hi! This is my test assignment for Novare Potential.
+
+## deploy on firebase: https://wetube-867a9.web.app
+
+---
 
 ## What has been done in this project:
 
@@ -16,9 +18,7 @@ Hi! This is my test assignment for Novare Potential.
 
 - static site header and sidebar on all pages;
 - search by part of the string;
+- search works when pressing `ENTER` ;
 - an algorithm has been implemented to check the transmitted address for spaces;
 - an algorithm was implemented to check if the image has an extension;
-- responsive pages for different screen sizes;
-- ## deploy on firebase: https://wetube-867a9.web.app
-
-
+- responsive pages for different screen sizes.
