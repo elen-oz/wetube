@@ -21,7 +21,7 @@ function Header() {
       </div>
 
       <div>
-        <form  className='header__input-form'>
+        <form className='header__input-form'>
           <input
             onChange={(e) => setInputSearch(e.target.value)}
             value={inputSearch}
@@ -61,7 +61,7 @@ function Header() {
           href='https://www.instagram.com/lenka_oz/'
         >
           <Avatar sx={{ width: 28, height: 28 }} className='header__icon'>
-            I
+            E
           </Avatar>
         </a>
       </div>
