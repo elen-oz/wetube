@@ -1,3 +1,9 @@
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -39,13 +45,6 @@ input:focus-visible {
   border: none;
 }
 
-button {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-
-
 .header .header__searchButton-icon {
   padding: 11px;
   color: gray;
@@ -61,12 +60,6 @@ button {
 }
 
 @media (max-width: 769px) {
-  .header__input-form {
-    width: 130%;
-  }
-}
-
-@media (max-width: 656px) {
   .header__input-form {
     width: 110%;
     height: 40px;

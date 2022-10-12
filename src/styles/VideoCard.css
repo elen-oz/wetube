@@ -27,6 +27,12 @@
   color: rgb(100, 100, 100);
 }
 
+@media (max-width: 1410px) {
+  .videoCard__thumbnail {
+    max-width: 310px;
+  }
+}
+
 @media (max-width: 1388px) {
   .videoCard {
     margin-bottom: 20px;
@@ -61,34 +67,7 @@
   .videoCard__info {
     max-width: 250px;
   }
-}
 
-@media (max-width: 1132px) {
-  .videoCard__thumbnail {
-    max-width: 237px;
-  }
-
-  .videoCard__info {
-    max-width: 237px;
-  }
-}
-
-
-
-@media (max-width: 1090px) {
-  .videoCard {
-    flex: 0.333;
-  }
-
-  .videoCard__thumbnail {
-    max-width: 310px;
-  }
-
-  .videoCard__info {
-    max-width: 310px;
-    margin-top: 7px;
-  }
-  
   .videoCard__text {
     margin-left: 10px;
   }
@@ -100,6 +79,16 @@
 
   .videoCard__text > p {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 1132px) {
+  .videoCard__thumbnail {
+    max-width: 237px;
+  }
+
+  .videoCard__info {
+    max-width: 237px;
   }
 }
 
@@ -129,7 +118,7 @@
   }
 
   .videoCard__info {
-    max-width: 260px;
+    max-width: 250px;
   }
 }
 
@@ -143,130 +132,181 @@
   }
 
   .videoCard__info {
-    max-width: 230px;
+    max-width: 220px;
   }
 }
 
 @media (max-width: 818px) {
+  .videoCard {
+    flex: 0.5;
+    margin: 0 1px 10px;
+  }
+
   .videoCard__thumbnail {
-    max-width: 198px;
+    max-width: 320px;
   }
 
   .videoCard__info {
-    max-width: 198px;
+    max-width: 310px;
+  }
+}
+
+@media (max-width: 760px) {
+  .videoCard__thumbnail {
+    max-width: 300px;
+  }
+
+  .videoCard__info {
+    max-width: 290px;
   }
 }
 
 @media (max-width: 722px) {
   .videoCard__thumbnail {
-    max-width: 168px;
+    max-width: 290px;
   }
 
   .videoCard__info {
-    max-width: 168px;
-    margin-top: 5px;
-  }
-
-  .videoCard__text {
-    margin-left: 5px;
-  }
-
-  .videoCard__title {
-    font-size: 10px;
-    margin-bottom: 5px;
-  }
-
-  .videoCard__text > p {
-    font-size: 8px;
+    max-width: 280px;
   }
 }
 
-@media (max-width: 632px) {
-  .videoCard {
-    margin-bottom: 5px;
-  }
-
+@media (max-width: 701px) {
   .videoCard__thumbnail {
-    max-width: 140px;
+    max-width: 280px;
   }
 
   .videoCard__info {
-    max-width: 140px;
-    margin-top: 4px;
+    max-width: 270px;
+  }
+}
+
+@media (max-width: 681px) {
+  .videoCard__thumbnail {
+    max-width: 270px;
   }
 
-  .videoCard__text {
-    margin-left: 3px;
+  .videoCard__info {
+    max-width: 260px;
+  }
+}
+
+@media (max-width: 661px) {
+  .videoCard__thumbnail {
+    max-width: 260px;
   }
 
-  .videoCard__title {
-    font-size: 8px;
-    margin-bottom: 3px;
+  .videoCard__info {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 641px) {
+  .videoCard__thumbnail {
+    max-width: 250px;
   }
 
-  .videoCard__text > p {
-    font-size: 8px;
+  .videoCard__info {
+    max-width: 240px;
+  }
+}
+
+@media (max-width: 621px) {
+  .videoCard__thumbnail {
+    max-width: 240px;
+  }
+
+  .videoCard__info {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 601px) {
+  .videoCard__thumbnail {
+    max-width: 230px;
+  }
+
+  .videoCard__info {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 581px) {
+  .videoCard__thumbnail {
+    max-width: 220px;
+  }
+
+  .videoCard__info {
+    max-width: 210px;
+  }
+}
+
+@media (max-width: 561px) {
+  .videoCard__thumbnail {
+    max-width: 210px;
+  }
+
+  .videoCard__info {
+    max-width: 200px;
   }
 }
 
 @media (max-width: 548px) {
   .videoCard__thumbnail {
-    max-width: 140px;
+    max-width: 250px;
   }
 
   .videoCard__info {
-    max-width: 140px;
+    max-width: 240px;
   }
 }
 
-@media (max-width: 471px) {
-  .videoCard {
-    flex: 0.5;
-    margin: 0 1px 5px;
+@media (max-width: 545px) {
+   .videoCard__thumbnail {
+    max-width: 240px;
   }
 
+  .videoCard__info {
+    max-width: 230px;
+  }
+}
+
+@media (max-width: 526px) {
   .videoCard__thumbnail {
-    max-width: 185px;
-  }
+   max-width: 230px;
+ }
 
-  .videoCard__info {
-    max-width: 185px;
-  }
+ .videoCard__info {
+   max-width: 220px;
+ }
 }
 
-@media (max-width: 417px) {
+@media (max-width: 509px) {
   .videoCard__thumbnail {
-    max-width: 165px;
-  }
-  .videoCard__info {
-    max-width: 165px;
-  }
+   max-width: 220px;
+ }
+
+ .videoCard__info {
+   max-width: 210px;
+ }
 }
 
-@media (max-width: 397px) {
+@media (max-width: 487px) {
   .videoCard__thumbnail {
-    max-width: 155px;
-  }
-  .videoCard__info {
-    max-width: 155px;
-  }
+   max-width: 210px;
+ }
+
+ .videoCard__info {
+   max-width: 200px;
+ }
 }
 
-@media (max-width: 377px) {
+@media (max-width: 470px) {
   .videoCard__thumbnail {
-    max-width: 145px;
+    max-width: 320px;
   }
+
   .videoCard__info {
-    max-width: 145px;
+    max-width: 310px;
   }
 }
-
-@media (max-width: 333px) {
-  .videoCard__thumbnail {
-    max-width: 137px;
-  }
-  .videoCard__info {
-    max-width: 137px;
-  }
-}
-
