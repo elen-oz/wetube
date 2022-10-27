@@ -1,6 +1,6 @@
 # WETUBE app
 
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/1cce8422948424cb2c66/maintainability)](https://codeclimate.com/github/elen-oz/wetube/maintainability)
 ## deploy on firebase: https://wetube-867a9.web.app
 -------
 ## What has been done in this project:
